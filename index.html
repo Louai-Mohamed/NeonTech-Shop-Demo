@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeonTech - Future of Tech</title>
+    <meta name="description" content="Discover the latest in cybernetic and virtual reality technologies with NeonTech.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <span>Neon</span>Tech
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li id="auth-links">
+                <a href="register.html">Register</a>
+                <span style="color: var(--text-secondary);"> | </span>
+                <a href="signin.html">Sign In</a>
+            </li>
+            <li id="user-session" style="display:none;">
+                <span id="user-name" style="color: var(--success-color); font-weight: bold;"></span>
+                <button onclick="logout()" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Logout</button>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero fade-in">
+            <div class="hero-content">
+                <h1>Experience the <span>Future</span> Today</h1>
+                <p>Immerse yourself in cutting-edge cybernetic enhancements and next-generation virtual reality gear designed for the modern trailblazer.</p>
+                <div style="display: flex; gap: 1rem;">
+                    <a href="products.html" class="btn btn-primary">Explore Products</a>
+                    <a href="https://github.com" target="_blank" class="btn btn-outline">External Link</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero.png" alt="High tech geometric visualization">
+            </div>
+        </section>
+
+        <section class="fade-in mt-3" style="display: flex; align-items: center; gap: 4rem; padding-top: 4rem; border-top: 1px solid var(--surface-border); flex-direction: row-reverse;">
+            <div class="hero-content">
+                <h2>Next-Gen <span>Virtual Reality</span></h2>
+                <p>Step into worlds previously unimaginable. Our flagship VR systems offer unparalleled resolution, comfort, and zero-latency tracking. Elevate your reality.</p>
+                <a href="about.html" class="btn btn-outline" style="margin-top: 1rem;">Learn More</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/feature.png" alt="Modern VR Headset glowing with neon lights">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NeonTech by Louai. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

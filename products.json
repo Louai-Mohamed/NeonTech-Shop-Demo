@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Quantum Processor X",
+    "price": 1299,
+    "description": "Next-gen quantum processing unit for complex simulations."
+  },
+  {
+    "name": "Neon Optic Implants",
+    "price": 850,
+    "description": "Enhanced visual overlays with night vision capabilities."
+  },
+  {
+    "name": "Hover Board 3000",
+    "price": 450,
+    "description": "Anti-gravity personal transport system."
+  },
+  {
+    "name": "Plasma Battery Pack",
+    "price": 120,
+    "description": "High-capacity portable energy source."
+  },
+  {
+    "name": "Stealth Suit V2",
+    "price": 3200,
+    "description": "Active camouflage tactical wear."
+  }
+]

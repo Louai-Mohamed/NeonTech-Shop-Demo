@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - NeonTech</title>
+    <meta name="description" content="Browse our catalog of advanced cybernetic and VR products.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <span>Neon</span>Tech
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html" class="active">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="text-center fade-in">
+            <h1>Our <span>Catalog</span></h1>
+            <p>Explore our premium hardware.</p>
+        </div>
+
+        <!-- Week 2 HTML Table Requirement -->
+        <div class="table-container fade-in mt-3">
+            <h2 class="mb-1" style="color: var(--primary-color);">Featured Specifications (Week 2 Table)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Neural Link v1</strong></td>
+                        <td>$1,999</td>
+                        <td>Direct brain-to-computer interface with ultra-low latency.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>HoloLens Pro</strong></td>
+                        <td>$899</td>
+                        <td>Augmented reality visor with 8K projection capabilities.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Exo-Glove</strong></td>
+                        <td>$349</td>
+                        <td>Haptic feedback glove for immersive VR interactions.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cyber-Deck</strong></td>
+                        <td>$2,499</td>
+                        <td>Portable high-performance computing terminal.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Week 7 JSON Data Section -->
+        <div class="fade-in mt-3">
+            <h2 style="color: var(--secondary-color);">Products from JSON (Week 7)</h2>
+            <div id="json-products" class="products-grid">
+                <!-- Products loaded via fetch API will appear here -->
+            </div>
+        </div>
+
+        <!-- Week 8 API Management Section -->
+        <div class="api-management fade-in mt-3">
+            <h2>Database API Integration (Week 8)</h2>
+            <p class="mb-2">This section interacts with a local API (e.g., json-server) to GET and POST data.</p>
+            
+            <form id="api-form" class="mb-2" style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <input type="text" id="api-name" class="form-control" placeholder="Product Name" required style="flex: 1; min-width: 200px;">
+                <input type="number" id="api-price" class="form-control" placeholder="Price" required style="flex: 1; min-width: 150px;">
+                <input type="text" id="api-desc" class="form-control" placeholder="Description" required style="flex: 2; min-width: 250px;">
+                <button type="submit" class="btn btn-primary">Add Product</button>
+            </form>
+
+            <div id="api-products" class="products-grid mt-3">
+                <!-- API Products will load here -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NeonTech by Louai. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js?v=20260508-live-sync-3"></script>
+</body>
+</html>

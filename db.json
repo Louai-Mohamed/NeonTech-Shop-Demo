@@ -1,0 +1,55 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Database Item 1",
+      "price": 100,
+      "description": "Loaded directly from db.json via local API."
+    },
+    {
+      "id": "K7BKOwVLliY",
+      "name": "neural",
+      "price": 349,
+      "description": "test"
+    },
+    {
+      "id": "nOp2l-CC8CE",
+      "name": "12",
+      "price": 2344,
+      "description": "234"
+    },
+    {
+      "id": "7xco16jax4A",
+      "name": "t2",
+      "price": 123,
+      "description": "t2"
+    },
+    {
+      "id": "IzIdMBG5BuI",
+      "name": "t21",
+      "price": 1234,
+      "description": "12341"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Demo User",
+      "email": "demo@neontech.com",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "name": "Test User",
+      "email": "test@neontech.com",
+      "password": "test1234"
+    },
+    {
+      "id": "L4GsOew3zRM",
+      "name": "Louai",
+      "email": "lkjasdhfkh@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

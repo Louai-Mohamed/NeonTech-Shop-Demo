@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - NeonTech</title>
+    <meta name="description" content="Get in touch with NeonTech for support or business inquiries.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <span>Neon</span>Tech
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="text-center fade-in mb-3">
+            <h1>Get in <span>Touch</span></h1>
+            <p>Have questions about our technology? We're here to help.</p>
+        </div>
+
+        <div class="form-container fade-in">
+            <form id="contact-form" novalidate>
+                <div class="form-group" id="name-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Louai Mohamed">
+                    <div class="error-message">Name is required.</div>
+                </div>
+                
+                <div class="form-group" id="email-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Louai@example.com">
+                    <div class="error-message">A valid email is required.</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject (Optional)</label>
+                    <input type="text" id="subject" name="subject" class="form-control" placeholder="Inquiry">
+                </div>
+                
+                <div class="form-group" id="message-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" class="form-control" placeholder="How can we help you?"></textarea>
+                    <div class="error-message">Message is required.</div>
+                </div>
+                
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 NeonTech by Louai. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
