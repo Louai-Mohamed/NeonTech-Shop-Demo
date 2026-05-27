@@ -1,4 +1,4 @@
-# NeonTech — Static Store Demo
+ # NeonTech — Static Store Demo
 
 Simple frontend demo showcasing a small product catalog, client-side interactions, and a local JSON API (via `json-server`). Designed as a learning / portfolio project for web fundamentals (HTML, CSS, JavaScript) and lightweight API prototyping.
 
